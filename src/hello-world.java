@@ -1,4 +1,5 @@
-package SteveHelloWorld
+package SteveHelloWorld;
+
 public class HelloWorld 
 {  
   public static void main(String[] args) 
