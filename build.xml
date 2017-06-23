@@ -37,8 +37,10 @@
     <!--delete dir="${dist}"/>-->
   </target>
   
-  <target name="test"
+  <target name="test" depends="compile"
           description="test build">
+      <jar jarfile="${dist}/lib/MyProject-${DSTAMP}.jar" basedir="${build}"/>    
+      <java jar="${dist}/lib/MyProject-${DSTAMP}.jar" fork="true"/>
   </target>
 </project>
 
