@@ -7,7 +7,7 @@
   <property name="build" location="build"/>
   <property name="dist" location="dist"/>
 
-  <target name="test">
+  <target name="int">
     <!-- Create the time stamp -->
     <tstamp/>
     <!-- Create the build directory structure used by compile -->
@@ -36,6 +36,8 @@
     <delete dir="${dist}"/>
   </target>
   
-  
+  <target name="test"
+          description="test build">
+  </target>
 </project>
 
