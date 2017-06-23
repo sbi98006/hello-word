@@ -7,7 +7,7 @@
   <property name="build" location="build"/>
   <property name="dist" location="dist"/>
 
-  <target name="int">
+  <target name="init">
     <!-- Create the time stamp -->
     <tstamp/>
     <!-- Create the build directory structure used by compile -->
